@@ -13,7 +13,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9_type", "9mm", "45", "22", "380" ],
     "capacity": 12,
-	"reliability": 8,
+    "reliability": 8,
     "reload_time": 125,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -31,7 +31,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9mk2_type", "9mm", "45", "22", "380" ],
     "capacity": 16,
-	"reliability": 9,
+    "reliability": 9,
     "reload_time": 110,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -49,7 +49,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9mk2_type", "9mm", "45", "22", "380" ],
     "capacity": 20,
-	"reliability": 10,
+    "reliability": 10,
     "reload_time": 95,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -67,7 +67,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9smg_type", "9mm", "45", "22", "40" ],
     "capacity": 50,
-	"reliability": 8,
+    "reliability": 8,
     "reload_time": 125,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -85,7 +85,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9smgmk2_type", "9mm", "45", "22", "40" ],
     "capacity": 65,
-	"reliability": 9,
+    "reliability": 9,
     "reload_time": 110,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -103,7 +103,7 @@
     "color": "light_gray",
     "ammo_type": [ "9mmBL9smgmk2_type", "9mm", "45", "22", "40" ],
     "capacity": 80,
-	"reliability": 10,
+    "reliability": 10,
     "reload_time": 90,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -121,7 +121,7 @@
     "color": "light_gray",
     "ammo_type": [ "308BL9_type", "308", "3006" ],
     "capacity": 7,
-	"reliability": 8,
+    "reliability": 8,
     "reload_time": 175,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -139,7 +139,7 @@
     "color": "light_gray",
     "ammo_type": [ "308BL9mk2_type", "308", "3006" ],
     "capacity": 10,
-	"reliability": 9,
+    "reliability": 9,
     "reload_time": 160,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -157,7 +157,7 @@
     "color": "light_gray",
     "ammo_type": [ "308BL9mk2_type", "308", "3006" ],
     "capacity": 14,
-	"reliability": 10,
+    "reliability": 10,
     "reload_time": 140,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -175,7 +175,7 @@
     "color": "light_gray",
     "ammo_type": [ "556BL9_type", "223" ],
     "capacity": 30,
-	"reliability": 8,
+    "reliability": 8,
     "reload_time": 140,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -193,7 +193,7 @@
     "color": "light_gray",
     "ammo_type": [ "556BL9mk2_type", "223" ],
     "capacity": 45,
-	"reliability": 9,
+    "reliability": 9,
     "reload_time": 125,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -211,7 +211,7 @@
     "color": "light_gray",
     "ammo_type": [ "556BL9mk2_type", "223" ],
     "capacity": 60,
-	"reliability": 10,
+    "reliability": 10,
     "reload_time": 110,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -229,7 +229,7 @@
     "color": "light_gray",
     "ammo_type": [ "BL9spray_type" ],
     "capacity": 500,
-	"reliability": 8,
+    "reliability": 8,
     "reload_time": 3
   },
   {
@@ -246,7 +246,7 @@
     "color": "light_gray",
     "ammo_type": [ "BL9spraymk2_type" ],
     "capacity": 600,
-	"reliability": 9,
+    "reliability": 9,
     "reload_time": 3
   },
   {
@@ -263,7 +263,7 @@
     "color": "light_gray",
     "ammo_type": [ "BL9spraymk2_type" ],
     "capacity": 800,
-	"reliability": 10,
+    "reliability": 10,
     "reload_time": 3
   },
   {
@@ -280,7 +280,7 @@
     "color": "light_gray",
     "ammo_type": [ "40mmBL9_type", "40x46mm" ],
     "capacity": 5,
-	"reliability": 8,
+    "reliability": 8,
     "flags": [ "MAG_BULKY" ]
   },
   {
@@ -297,7 +297,7 @@
     "color": "light_gray",
     "ammo_type": [ "40mmBL9mk2_type", "40x46mm" ],
     "capacity": 7,
-	"reliability": 9,
+    "reliability": 9,
     "flags": [ "MAG_BULKY" ]
   },
   {
@@ -314,7 +314,7 @@
     "color": "light_gray",
     "ammo_type": [ "40mmBL9mk2_type", "40x46mm" ],
     "capacity": 10,
-	"reliability": 10,
+    "reliability": 10,
     "flags": [ "MAG_BULKY" ]
   }
 ]
