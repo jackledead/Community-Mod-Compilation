@@ -7,7 +7,6 @@
   "description": "sude joui buki tuika",
   "path": "",
   "dependencies": [
-    "blazemod",
-    "boats"
+    "blazemod"
   ]
 }
