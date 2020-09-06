@@ -44,8 +44,7 @@
     "//": "uncontained so it can bleed to the ground.",
     "symbol": "~",
     "color": "yellow",
-    "name": "honey",
-    "name_plural": "honey",
+    "name": { "str_sp": "honey" },
     "description": "Honey, that stuff bees make.",
     "price": 800,
     "material": "honey",
@@ -175,7 +174,7 @@
     "use_action": [
       { "type": "HAMMER" },
       { "type": "BOLTCUTTERS" },
-      { "type": "HOTPLATE" },
+      { "type": "cauterize" },
       { "type": "WATER_PURIFIER" },
       { "type": "GUN_REPAIR" },
       { "type": "firestarter" },
