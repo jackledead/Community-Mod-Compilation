@@ -7,7 +7,7 @@
     "description": "Disables vitamin requirements.",
     "category": "rebalance",
     "dependencies": [ "dda" ],
-    "obsolete": false
+    "obsolete": true
   },
   {
     "type": "EXTERNAL_OPTION",
