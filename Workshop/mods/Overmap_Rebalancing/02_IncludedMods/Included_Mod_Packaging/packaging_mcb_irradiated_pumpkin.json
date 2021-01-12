@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_irradiated_pumpkin",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (irradiated pumpkin)",
+    "name": { "str": "larger cardboard box (irradiated pumpkin)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 10 units irradiated pumpkin.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 6000,
-    "volume": 12
+    "weight": "6000 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

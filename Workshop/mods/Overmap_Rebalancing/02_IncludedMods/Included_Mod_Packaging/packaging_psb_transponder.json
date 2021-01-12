@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_transponder",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (transponder circuits)",
+    "name": { "str": "storage box (transponder circuits)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 transponder circuits.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 33200,
-    "volume": 50
+    "weight": "33200 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

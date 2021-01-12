@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_elements",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (heating elements)",
+    "name": { "str": "storage box (heating elements)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 heating elements.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 16690,
-    "volume": 50
+    "weight": "16690 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

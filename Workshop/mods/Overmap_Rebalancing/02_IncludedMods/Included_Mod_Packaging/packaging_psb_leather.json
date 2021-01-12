@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_leather",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (leather)",
+    "name": { "str": "storage box (leather)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 pieces of leather.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 8500,
-    "volume": 50
+    "weight": "8500 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

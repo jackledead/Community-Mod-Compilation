@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_cured_pelt",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (cured pelts)",
+    "name": { "str": "storage box (cured pelts)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 17 cured pelts.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 13628,
-    "volume": 50
+    "weight": "13628 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

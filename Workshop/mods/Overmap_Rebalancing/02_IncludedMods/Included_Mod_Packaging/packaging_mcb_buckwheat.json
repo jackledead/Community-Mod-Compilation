@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_buckwheat",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (buckwheat)",
+    "name": { "str": "larger cardboard box (buckwheat)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 units buckwheat.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 2560,
-    "volume": 12
+    "weight": "2560 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_chem_anfo",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (anfo)",
+    "name": { "str": "larger cardboard box (anfo)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 750 units of anfo.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 7150,
-    "volume": 12
+    "weight": "7150 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

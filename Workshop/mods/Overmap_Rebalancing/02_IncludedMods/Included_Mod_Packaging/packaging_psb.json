@@ -4,13 +4,13 @@
     "id": "packaging_portable_storage_box",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box",
+    "name": { "str": "storage box" },
     "description": "A makeshift storage box. Used for reduction in volume and easy transportation.",
     "category": "other",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 2000,
-    "volume": 17
+    "weight": "2000 g",
+    "volume": "4250 ml"
   },
   {
     "result": "packaging_portable_storage_box",

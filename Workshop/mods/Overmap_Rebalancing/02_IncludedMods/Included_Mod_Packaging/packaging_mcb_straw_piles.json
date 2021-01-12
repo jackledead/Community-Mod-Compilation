@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_straw_piles",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (straw piles)",
+    "name": { "str": "larger cardboard box (straw piles)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 straw piles.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 700,
-    "volume": 12
+    "weight": "700 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

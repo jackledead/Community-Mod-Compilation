@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_irradiated_banana",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (irradiated bananas)",
+    "name": { "str": "larger cardboard box (irradiated bananas)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 irradiated bananas.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 3775,
-    "volume": 12
+    "weight": "3775 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_tramadol",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (tramadol)",
+    "name": { "str": "larger cardboard box (tramadol)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 3000 units of tramadol.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 3400,
-    "volume": 12
+    "weight": "3400 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_chitin_pieces",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (chitin)",
+    "name": { "str": "storage box (chitin)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 pieces of chitin.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 7785,
-    "volume": 50
+    "weight": "7785 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

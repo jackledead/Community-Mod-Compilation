@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_dahlia_root",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (dahlia root)",
+    "name": { "str": "larger cardboard box (dahlia root)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 units dahlia root.",
-    "volume": 12,
+    "volume": "3000 ml",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 3250
+    "weight": "3250 g"
   },
   {
     "type": "uncraft",

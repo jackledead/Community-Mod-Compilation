@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_rebar",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (rebars)",
+    "name": { "str": "storage box (rebars)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 11 rebars.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 11988,
-    "volume": 50
+    "weight": "11988 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_rope_30",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (long ropes)",
+    "name": { "str": "storage box (long ropes)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 7 long ropes.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 9560,
-    "volume": 50
+    "weight": "9560 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

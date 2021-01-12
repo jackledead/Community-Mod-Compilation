@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_processor",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (processor units)",
+    "name": { "str": "storage box (processor units)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 processor units.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 5640,
-    "volume": 50
+    "weight": "5640 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

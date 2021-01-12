@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_power_supplies",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (power supplies)",
+    "name": { "str": "storage box (power supplies)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 17 power supplies.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 3921,
-    "volume": 50
+    "weight": "3921 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",

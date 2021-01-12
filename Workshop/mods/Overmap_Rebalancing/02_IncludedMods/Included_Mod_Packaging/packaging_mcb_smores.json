@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_smores",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (s'mores)",
+    "name": { "str": "larger cardboard box (s'mores)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 60 s'mores.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 1840,
-    "volume": 12
+    "weight": "1840 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

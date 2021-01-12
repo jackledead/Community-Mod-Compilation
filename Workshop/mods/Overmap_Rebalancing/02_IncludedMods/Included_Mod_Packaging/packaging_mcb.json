@@ -4,13 +4,13 @@
     "id": "packaging_medium_cardboard_box",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box",
+    "name": { "str": "larger cardboard box" },
     "description": "A medium sized cardboard box. Used for reduction in volume.",
     "category": "other",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 400,
-    "volume": 4
+    "weight": "400 g",
+    "volume": "1000 ml"
   },
   {
     "result": "packaging_medium_cardboard_box",

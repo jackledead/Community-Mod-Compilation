@@ -4,12 +4,12 @@
     "id": "packaging_medium_cardboard_box_with_brick",
     "symbol": "]",
     "color": "brown",
-    "name": "larger cardboard box (bricks)",
+    "name": { "str": "larger cardboard box (bricks)" },
     "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 8 bricks.",
     "price": 200,
     "material": [ "paper" ],
-    "weight": 8152,
-    "volume": 12
+    "weight": "8152 g",
+    "volume": "3000 ml"
   },
   {
     "type": "uncraft",

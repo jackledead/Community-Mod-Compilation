@@ -4,12 +4,12 @@
     "id": "packaging_portable_storage_box_with_splinter",
     "symbol": "]",
     "color": "light_gray",
-    "name": "storage box (splintered wood)",
+    "name": { "str": "storage box (splintered wood)" },
     "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 pieces of splintered wood.",
     "price": 10000,
     "material": [ "wood", "steel" ],
-    "weight": 31445,
-    "volume": 50
+    "weight": "31445 g",
+    "volume": "12500 ml"
   },
   {
     "type": "uncraft",
