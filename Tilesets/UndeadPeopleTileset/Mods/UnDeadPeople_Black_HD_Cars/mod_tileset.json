@@ -1,7 +1,14 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE_LIGHT", "MSX++DEAD_PEOPLE", "MshockXottoplusORIG" ],
+    "compatibility": [
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE_LIGHT",
+      "MSX++DEAD_PEOPLE",
+      "MshockXottoplusORIG"
+    ],
     "tiles-new": [
       {
         "file": "black_cars.png",

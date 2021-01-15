@@ -1,23 +1,26 @@
- [
- {
+[
+  {
     "type": "overmap_terrain",
     "id": "pottery_cottage",
     "copy-from": "pottery_cottage",
     "sym": "\u00E2",
     "color": "yellow"
-  } ,{
+  },
+  {
     "type": "overmap_terrain",
     "id": "pottery_cottage_basement",
     "copy-from": "pottery_cottage_basement",
     "sym": "\u00E2",
     "color": "yellow"
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "pottery_cottage_2nd",
     "copy-from": "pottery_cottage_2nd",
     "sym": "\u00E2",
     "color": "yellow"
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "pottery_cottage_roof",
     "copy-from": "pottery_cottage_roof",

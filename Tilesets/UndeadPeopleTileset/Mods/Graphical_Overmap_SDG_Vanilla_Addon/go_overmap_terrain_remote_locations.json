@@ -1,5 +1,5 @@
- [
- {
+[
+  {
     "type": "overmap_terrain",
     "id": "fema_1_3",
     "copy-from": "fema_1_3",
@@ -187,56 +187,56 @@
     "copy-from": "cave_underground",
     "sym": "\u00EA",
     "color": "brown"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_c1_roof",
     "copy-from": "mansion_c1_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_c2_roof",
     "copy-from": "mansion_c2_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_c3_roof",
     "copy-from": "mansion_c3_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_c4_roof",
     "copy-from": "mansion_c4_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_t2_roof",
     "copy-from": "mansion_t2_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_t4_roof",
     "copy-from": "mansion_t4_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_e1_roof",
     "copy-from": "mansion_e1_roof",
     "sym": "\u00D0",
     "color": "white"
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "mansion_+4_roof",
