@@ -3536,7 +3536,7 @@
         { "id": "t_palisade_pulley_season_winter", "fg": 2970, "bg": 992 },
         { "id": "t_ladder_down_season_winter", "fg": 3104, "bg": 992 },
         {
-          "id": [ "t_grass_golf_season_winter", "t_grass_dead_season_winter" ],
+          "id": [ "!t_grass_golf_season_winter", "!t_grass_dead_season_winter" ],
           "fg": [
             { "weight": 300, "sprite": 992 },
             { "weight": 300, "sprite": 3080 },
@@ -3553,7 +3553,7 @@
             { "weight": 10, "sprite": 23308 }
           ],
           "bg": 992,
-          "multitile": false,
+          "multitile": true,
           "additional_tiles": [
             {
               "id": "center",
@@ -3858,7 +3858,7 @@
           "bg": 1005,
           "rotates": true,
           "multitile": true,
-          "additional_tiles": [ { "id": "broken", "fg": 23516, "bg": 1005, "rotates": true } ]
+          "additional_tiles": [ { "id": "broken", "fg": 23516, "bg": 1005 } ]
         },
         {
           "id": "vp_seat_nocargo",
@@ -3866,7 +3866,7 @@
           "bg": 1005,
           "rotates": true,
           "multitile": true,
-          "additional_tiles": [ { "id": "broken", "fg": 23516, "bg": 1005, "rotates": true } ]
+          "additional_tiles": [ { "id": "broken", "fg": 23516, "bg": 1005 } ]
         },
         {
           "id": "vp_veh_table",
@@ -5054,20 +5054,7 @@
         { "id": "f_dive_block", "fg": 1496, "rotates": false },
         { "id": "f_dresser", "fg": 1497, "rotates": false },
         { "id": "f_dryer", "fg": 1498, "rotates": false },
-        {
-          "id": "f_dumpster",
-          "fg": 1499,
-          "rotates": false,
-          "multitile": false,
-          "additional_tiles": [
-            { "id": "unconnected", "fg": 1499 },
-            { "id": "center", "fg": 1500 },
-            { "id": "corner", "fg": 1501 },
-            { "id": "edge", "fg": 1502 },
-            { "id": "end_piece", "fg": 1503 },
-            { "id": "t_connection", "fg": 1504 }
-          ]
-        },
+        { "id": "f_dumpster", "fg": 1499, "rotates": false },
         { "id": "f_egg_sackbw", "fg": 1505, "rotates": false },
         { "id": "f_egg_sackcs", "fg": 1505, "rotates": false },
         { "id": "f_egg_sacke", "fg": 1506, "rotates": false },
@@ -5395,7 +5382,6 @@
         { "id": "l_mbr_223_kit", "fg": 1794 },
         { "id": "mn_classic_kit", "fg": 1794 },
         { "id": "mn_ebr_kit", "fg": 1794 },
-        { "id": "radio_car_box", "fg": 1794 },
         { "id": "manhole_cover", "fg": 1797, "rotates": false },
         { "id": "silver", "fg": 1799 },
         { "id": "mold_metal", "fg": 1799 },
@@ -6160,7 +6146,7 @@
             { "fg": [ 4559, 4560, 4561, 4562 ], "bg": 988, "id": "corner" },
             { "fg": [ 4567, 4567, 4567, 4567 ], "bg": 988, "id": "end_piece" },
             { "fg": [ 4567, 4567, 4567, 4567 ], "bg": 5225, "id": "t_connection" },
-            { "fg": [ 4568, 4567 ], "bg": 988, "id": "unconnected", "rotates": true }
+            { "fg": [ 4568, 4567 ], "bg": 988, "id": "unconnected" }
           ]
         },
         {
@@ -8063,7 +8049,7 @@
         { "id": "mon_mutant_salmon", "fg": 2555, "rotates": false },
         { "id": "mon_oozle", "fg": 2557, "bg": 967, "rotates": false },
         { "id": "mon_opossum", "fg": 2558, "bg": 5235, "rotates": false },
-        { "id": "mon_pidgeon", "fg": 2560, "bg": 967, "rotates": false },
+        { "id": [ "mon_pidgeon", "mon_pigeon" ], "fg": 2560, "bg": 967, "rotates": false },
         { "id": "mon_pinky", "fg": 2563, "bg": 967, "rotates": false },
         { "id": "mon_pinky_revive", "fg": 2564, "bg": 967, "rotates": false },
         { "id": "mon_pregnant_giant_cockroach", "fg": 2566, "bg": 967, "rotates": false },
@@ -8889,6 +8875,7 @@
           "id": [ "vp_repeatingcrossbow", "vp_repeatingcrossbownc" ],
           "fg": 3960,
           "rotates": true,
+          "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 3987, "bg": 3960 } ]
         },
         { "id": "vp_aisle_horizontal", "fg": 3961, "rotates": true },
@@ -9927,6 +9914,7 @@
           ],
           "fg": 4109,
           "rotates": true,
+          "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 3987, "bg": 4109 } ]
         },
         {
@@ -15074,7 +15062,7 @@
           "id": [ "t_moss_season_winter" ],
           "fg": 992,
           "bg": 992,
-          "multitile": false,
+          "multitile": true,
           "additional_tiles": [
             {
               "fg": [
@@ -17019,7 +17007,7 @@
           ]
         },
         {
-          "id": [ "t_dirt_season_winter", "t_grass_season_winter" ],
+          "id": [ "t_dirt_season_winter", "!t_grass_season_winter" ],
           "fg": 19204,
           "rotates": false,
           "multitile": true,
@@ -21780,7 +21768,7 @@
         { "id": "f_cattails_season_winter", "fg": 24328, "rotates": false },
         { "id": "corpse_mon_goat", "fg": 24329, "rotates": false },
         { "id": "corpse_mon_robin", "fg": 24330, "rotates": false },
-        { "id": "corpse_mon_pidgeon", "fg": 24331, "rotates": false },
+        { "id": [ "corpse_mon_pidgeon", "corpse_mon_pigeon" ], "fg": 24331, "rotates": false },
         { "id": "corpse_mon_bjay", "fg": 24332, "rotates": false },
         { "id": "corpse_mon_gull", "fg": 24333, "rotates": false },
         { "id": "corpse_mon_coyote_small", "fg": 24334, "rotates": false },
@@ -22256,14 +22244,14 @@
           "additional_tiles": [ { "id": "broken", "fg": 24713 } ]
         },
         {
-          "id": "vp_wheel_bicycle",
+          "id": "!vp_wheel_bicycle",
           "fg": 4185,
           "rotates": true,
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 24706 } ]
         },
         {
-          "id": "vp_wheel_bicycle_steerable",
+          "id": "!vp_wheel_bicycle_steerable",
           "fg": 24701,
           "rotates": true,
           "multitile": true,
@@ -22271,14 +22259,14 @@
         },
         { "id": "vp_basketsm", "fg": 24702, "rotates": true },
         {
-          "id": "vp_wheel_bicycle_or",
+          "id": "!vp_wheel_bicycle_or",
           "fg": 24703,
           "rotates": true,
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": 24708 } ]
         },
         {
-          "id": "vp_wheel_bicycle_or_steerable",
+          "id": "!vp_wheel_bicycle_or_steerable",
           "fg": 24704,
           "rotates": true,
           "multitile": true,
@@ -22865,8 +22853,7 @@
             "steyr_ssg69",
             "wa2000"
           ],
-          "fg": 24971,
-          "note": "generic MWE rifle item"
+          "fg": 24971
         },
         {
           "id": [
@@ -22887,8 +22874,7 @@
             "overlay_wielded_steyr_ssg69",
             "overlay_wielded_wa2000"
           ],
-          "fg": 24972,
-          "note": "generic MWE wielded rifle"
+          "fg": 24972
         },
         {
           "id": [
@@ -22900,15 +22886,10 @@
             "survivor_bipod",
             "susat_scope"
           ],
-          "fg": 24973,
-          "note": "generic MWE mod"
+          "fg": 24973
         },
-        { "id": [ "gl_06", "rgm40" ], "fg": 24974, "note": "generic MWE launcher item" },
-        {
-          "id": [ "overlay_wielded_gl_06", "overlay_wielded_rgm40" ],
-          "fg": 24975,
-          "note": "generic MWE wielded launcher"
-        },
+        { "id": [ "gl_06", "rgm40" ], "fg": 24974 },
+        { "id": [ "overlay_wielded_gl_06", "overlay_wielded_rgm40" ], "fg": 24975 },
         {
           "id": [
             "henry_mares_leg",
@@ -22935,8 +22916,7 @@
             "nmshotpistol",
             "nm9mmsmallpistol"
           ],
-          "fg": 24976,
-          "note": "generic MWE pistol item"
+          "fg": 24976
         },
         {
           "id": [
@@ -22962,30 +22942,20 @@
             "overlay_wielded_nmshotpistol",
             "overlay_wielded_nm9mmsmallpistol"
           ],
-          "fg": 24977,
-          "note": "generic MWE wielded pistol"
+          "fg": 24977
         },
-        {
-          "id": [ "hp9mm_mag", "stechkinmag", "strike9mm_mag", "sw9mm_mag", "vd01mag" ],
-          "fg": 24978,
-          "note": "generic MWE pistol magazine item"
-        },
-        { "id": [ "r93t2Pack", "strike_onePack", "vd01Pack" ], "fg": 24979, "note": "generic MWE pack" },
-        { "id": [ "m45a1Pack", "nato9mag", "sterlingmag" ], "fg": 24980, "note": "generic MWE SMG magazine" },
-        { "id": [ "reloaded_3030_win", "reloaded_357_magn" ], "fg": 24981, "note": "generic MWE ammo" },
-        { "id": [ "six12", "six12mil", "st_12", "uts_15" ], "fg": 24982, "note": "generic MWE shotgun item" },
+        { "id": [ "hp9mm_mag", "stechkinmag", "strike9mm_mag", "sw9mm_mag", "vd01mag" ], "fg": 24978 },
+        { "id": [ "r93t2Pack", "strike_onePack", "vd01Pack" ], "fg": 24979 },
+        { "id": [ "m45a1Pack", "nato9mag", "sterlingmag" ], "fg": 24980 },
+        { "id": [ "reloaded_3030_win", "reloaded_357_magn" ], "fg": 24981 },
+        { "id": [ "six12", "six12mil", "st_12", "uts_15" ], "fg": 24982 },
         {
           "id": [ "overlay_wielded_six12", "overlay_wielded_six12mil", "overlay_wielded_st_12", "overlay_wielded_uts_15" ],
-          "fg": 24983,
-          "note": "generic MWE wielded shotgun"
+          "fg": 24983
         },
-        { "id": [ "six12mag" ], "fg": 24984, "note": "generic MWE shotgun magazine" },
-        { "id": [ "sterling4", "stkcpw" ], "fg": 24985, "note": "generic MWE SMG item" },
-        {
-          "id": [ "overlay_wielded_sterling4", "overlay_wielded_stkcpw" ],
-          "fg": 24986,
-          "note": "generic MWE SMG item"
-        },
+        { "id": [ "six12mag" ], "fg": 24984 },
+        { "id": [ "sterling4", "stkcpw" ], "fg": 24985 },
+        { "id": [ "overlay_wielded_sterling4", "overlay_wielded_stkcpw" ], "fg": 24986 },
         {
           "id": [
             "aks74",
@@ -23023,8 +22993,7 @@
             "m16",
             "nm25mmrifle"
           ],
-          "fg": 24987,
-          "note": "generic AGE rifle item"
+          "fg": 24987
         },
         {
           "id": [
@@ -23064,14 +23033,9 @@
             "overlay_wielded_m16",
             "overlay_wielded_nm25mmrifle"
           ],
-          "fg": 24988,
-          "note": "generic AGE wielded rifle"
+          "fg": 24988
         },
-        {
-          "id": [ "auto5", "mossberg_590a1", "striker", "spas12", "usas12", "w1887", "w1897" ],
-          "fg": 24989,
-          "note": "generic AGE shotgun item"
-        },
+        { "id": [ "auto5", "mossberg_590a1", "striker", "spas12", "usas12", "w1887", "w1897" ], "fg": 24989 },
         {
           "id": [
             "overlay_wielded_auto5",
@@ -23082,8 +23046,7 @@
             "overlay_wielded_w1887",
             "overlay_wielded_w1897"
           ],
-          "fg": 24990,
-          "note": "generic AGE wielded shotgun"
+          "fg": 24990
         },
         {
           "id": [
@@ -23111,16 +23074,11 @@
             "stanarg30",
             "stanarg50"
           ],
-          "fg": 24991,
-          "note": "generic AGE magazine item"
+          "fg": 24991
         },
-        { "id": [ "bg-15" ], "fg": 24992, "note": "generic AGE launcher item" },
-        { "id": [ "overlay_wielded_bg-15" ], "fg": 24993, "note": "generic AGE launcher wielded" },
-        {
-          "id": [ "bizon", "bm32", "bm32/38", "homebrew_smg", "ppsh_clone", "scrop_evo", "nm9mmsmg" ],
-          "fg": 24994,
-          "note": "generic AGE SMG item"
-        },
+        { "id": [ "bg-15" ], "fg": 24992 },
+        { "id": [ "overlay_wielded_bg-15" ], "fg": 24993 },
+        { "id": [ "bizon", "bm32", "bm32/38", "homebrew_smg", "ppsh_clone", "scrop_evo", "nm9mmsmg" ], "fg": 24994 },
         {
           "id": [
             "overlay_wielded_bizon",
@@ -23131,8 +23089,7 @@
             "overlay_wielded_scrop_evo",
             "overlay_wielded_nm9mmsmg"
           ],
-          "fg": 24995,
-          "note": "generic AGE wielded SMG"
+          "fg": 24995
         },
         { "id": [ "atgm_spent" ], "fg": 24996 },
         { "id": [ "spinach" ], "fg": 24997 },
@@ -23165,8 +23122,7 @@
             "t17",
             "tec22_b"
           ],
-          "fg": 25000,
-          "note": "generic AGE pistol item"
+          "fg": 25000
         },
         {
           "id": [
@@ -23192,8 +23148,7 @@
             "overlay_wielded_t17",
             "overlay_wielded_tec22_b"
           ],
-          "fg": 25001,
-          "note": "generic AGE wielded pistol"
+          "fg": 25001
         },
         {
           "id": [
@@ -23218,8 +23173,7 @@
             "scarl_uk_bigboys",
             "spgun_shotgun"
           ],
-          "fg": 25002,
-          "note": "generic AGE gun mods"
+          "fg": 25002
         },
         {
           "id": [
@@ -23230,8 +23184,7 @@
             "reloaded_556_match",
             "reloaded_762ak_match"
           ],
-          "fg": 25003,
-          "note": "generic AGE ammo"
+          "fg": 25003
         },
         { "id": [ "bolas" ], "fg": 25004 },
         { "id": [ "overlay_wielded_bolas" ], "fg": 25005 },
@@ -24147,32 +24100,28 @@
         { "id": [ "cf_rep_trade_arrangement" ], "fg": 25615, "rotates": false },
         {
           "id": [ "overlay_male_worn_halo_elecresist", "overlay_male_worn_halo_dampening" ],
-          "note": "light gray color",
           "fg": 25616,
           "rotates": false
         },
         {
           "id": [ "overlay_female_worn_halo_elecresist", "overlay_female_worn_halo_dampening" ],
-          "note": "light gray color",
           "fg": 25617,
           "rotates": false
         },
-        { "id": [ "overlay_male_worn_halo_clairvoyance" ], "note": "magenta color", "fg": 25618, "rotates": false },
-        { "id": [ "overlay_female_worn_halo_clairvoyance" ], "note": "magenta color", "fg": 25619, "rotates": false },
+        { "id": [ "overlay_male_worn_halo_clairvoyance" ], "fg": 25618, "rotates": false },
+        { "id": [ "overlay_female_worn_halo_clairvoyance" ], "fg": 25619, "rotates": false },
         {
           "id": [ "overlay_male_worn_halo_shadowsnakes", "overlay_male_worn_halo_drainlife" ],
-          "note": "dark gray color",
           "fg": 25620,
           "rotates": false
         },
         {
           "id": [ "overlay_female_worn_halo_shadowsnakes", "overlay_female_worn_halo_drainlife" ],
-          "note": "dark gray color",
           "fg": 25621,
           "rotates": false
         },
-        { "id": [ "overlay_male_worn_halo_light" ], "note": "white color", "fg": 25622, "rotates": false },
-        { "id": [ "overlay_female_worn_halo_light" ], "note": "white color", "fg": 25623, "rotates": false },
+        { "id": [ "overlay_male_worn_halo_light" ], "fg": 25622, "rotates": false },
+        { "id": [ "overlay_female_worn_halo_light" ], "fg": 25623, "rotates": false },
         { "id": [ "index_bloodmagic" ], "fg": 25624, "rotates": false },
         { "id": [ "index_hexenhammer" ], "fg": 25625, "rotates": false },
         { "id": [ "index_potioncraft" ], "fg": 25626, "rotates": false },
@@ -24418,7 +24367,7 @@
           "bg": 1005,
           "rotates": true,
           "multitile": true,
-          "additional_tiles": [ { "id": "broken", "fg": 25840, "bg": 1005, "rotates": true } ]
+          "additional_tiles": [ { "id": "broken", "fg": 25840, "bg": 1005 } ]
         },
         {
           "id": "vp_reclining_seat_leather",
@@ -24426,7 +24375,7 @@
           "bg": 1005,
           "rotates": true,
           "multitile": true,
-          "additional_tiles": [ { "id": "broken", "fg": 25842, "bg": 1005, "rotates": true } ]
+          "additional_tiles": [ { "id": "broken", "fg": 25842, "bg": 1005 } ]
         },
         { "id": "seat_leather", "fg": 25839, "rotates": false },
         { "id": "tindalos_whistle", "fg": 25843, "rotates": false },
@@ -27933,7 +27882,7 @@
         { "id": [ "sandpaper" ], "fg": 36215, "rotates": false },
         { "id": [ "basic_chemistry" ], "fg": 36216, "rotates": false },
         { "id": [ "scots_cookbook", "scots_tailor" ], "fg": 36217, "rotates": false },
-        { "id": [ "radio_car_box" ], "fg": 36218, "rotates": false },
+        { "id": [ "radio_car_box", "rc_car_box" ], "fg": 36218, "rotates": false },
         { "id": [ "mon_tiger" ], "fg": 36219, "bg": 967, "rotates": false },
         { "id": [ "corpse_mon_tiger" ], "fg": 36220, "rotates": false },
         { "id": [ "mon_ziger" ], "fg": 36221, "bg": 967, "rotates": false },
@@ -28063,7 +28012,7 @@
           "additional_tiles": [ { "id": "broken", "fg": [ 36310, 36311, 36312, 36313 ] } ]
         },
         {
-          "id": [ "vp_wheel_bicycle", "vp_wheel_bicycle_steerable", "vp_wheel_bicycle_or" ],
+          "id": [ "vp_wheel_bicycle", "vp_wheel_bicycle_steerable", "vp_wheel_bicycle_or", "vp_wheel_bicycle_or_steerable" ],
           "fg": [ 36314, 36315, 36316, 36317 ],
           "rotates": true,
           "multitile": true,
@@ -28400,6 +28349,10 @@
           "rotates": true,
           "multitile": true,
           "additional_tiles": [ { "id": "broken", "fg": [ 36435 ] } ]
+        },
+        {
+          "id": [ "t_zebra" ],
+          "fg": [ { "weight": 25, "sprite": 36436 }, { "weight": 25, "sprite": 36437 }, { "weight": 25, "sprite": 36438 } ]
         }
       ]
     }
