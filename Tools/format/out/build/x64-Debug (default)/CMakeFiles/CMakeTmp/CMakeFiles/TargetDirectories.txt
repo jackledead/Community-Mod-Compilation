@@ -1,3 +1,0 @@
-C:/Users/xxmar/Documents/GitHub/Goats-Mod-Compilation/Tools/format/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4a249.dir
-C:/Users/xxmar/Documents/GitHub/Goats-Mod-Compilation/Tools/format/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-C:/Users/xxmar/Documents/GitHub/Goats-Mod-Compilation/Tools/format/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
